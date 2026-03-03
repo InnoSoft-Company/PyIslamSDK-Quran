@@ -38,12 +38,15 @@ classifiers = [
 dependencies = []
 
 [project.urls]
-"Source Code" = "https://github.com/InnoSoft-Company/IslamSDK-Quran"
-"Bug Tracker" = "https://github.com/InnoSoft-Company/IslamSDK-Quran/issues"
-"Documentation" = "https://github.com/InnoSoft-Company/IslamSDK-Quran#readme"
+"Source Code" = "https://github.com/InnoSoft-Company/PyIslamSDK/tree/quran"
+"Bug Tracker" = "https://github.com/InnoSoft-Company/PyIslamSDK/tree/quran/issues"
+"Documentation" = "https://github.com/InnoSoft-Company/PyIslamSDK/tree/quran#readme"
 
 [tool.setuptools]
 packages = { find = {} }
 
 [tool.setuptools.package-data]
 islamsdk_quran = ["dbs/*.db", "data/*.json"]
+
+[project.scripts]
+pyislamsdk_quran = "pyislamsdk_quran.cli:main"

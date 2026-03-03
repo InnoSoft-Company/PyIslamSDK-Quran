@@ -8,6 +8,7 @@ setup(
     author="InnoSoft Company",
     author_email="midoghanam@hotmail.com",
     description="IslamSDK Quran module with Quranic texts, utilities, and local database.",
+    entry_points={"console_scripts": ["pyislamsdk_quran=pyislamsdk_quran.cli:main", ],},
     long_description=open("README.md", encoding="utf-8").read(),
     long_description_content_type="text/markdown",
     url="https://github.com/InnoSoft-Company/IslamSDK-Quran",
