@@ -1,4 +1,5 @@
 from .dbs import config
+import os
 
 class SurahsConfig:
   def __init__(self, surah_number=1):

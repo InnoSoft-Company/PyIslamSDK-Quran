@@ -1,4 +1,5 @@
 from .dbs import config
+import os
 
 class AudioConfig:
   def __init__(self, surah_number=1, reciter_ar=None):

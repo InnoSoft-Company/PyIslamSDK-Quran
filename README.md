@@ -85,7 +85,7 @@
 [عرض على GitHub](https://github.com/InnoSoft-Company/PyIslamSDK-Quran) | [عرض على PyPI](https://pypi.org/project/PyIslamSDK-Quran/)
 
 ---
-
+✨ الإصدار الجديد v0.1.0 يقدم دعمًا كاملاً للاستعلام عن السور والآيات، وتحسينات كبيرة في أداء أوامر CLI.
 ## التثبيت
 
 ```bash
@@ -96,7 +96,9 @@ pip install PyIslamSDK-Quran
 
 بداية سريعة / أمثلة الاستخدام
 
-تتيح لك الوحدة audios استرجاع معلومات عن القراء (الروايات) وخوادم الصوت.
+وحدة الصوتيات (audios)
+
+تتيح لك وحدة audios استرجاع معلومات عن القراء (الروايات) وخوادم الصوت.
 
 الاستيراد والتهيئة
 
@@ -133,9 +135,50 @@ specific_server = servers.get_server()
 print(specific_server)
 ```
 
-كل دالة ترجع قاموسًا (dictionary) يحتوي على مفتاح status (منطقي) وإما data (عند النجاح) أو error (عند الفشل).
-
 ---
+
+وحدة السور (quran)
+
+يمكنك استخدام الصنف SurahsConfig للوصول إلى معلومات السور والآيات.
+
+الاستيراد والتهيئة
+
+```python
+from pyislamsdk_quran.quran import SurahsConfig
+
+# إنشاء كائن للتعامل مع السور (يمكن تمرير رقم سورة اختياري)
+surahs = SurahsConfig()
+```
+
+الحصول على جميع السور
+
+```python
+all_surahs = surahs.get_all_surahs()
+print(all_surahs)
+```
+
+البحث عن سورة بالاسم
+
+```python
+surah_info = surahs.get_surah(name="الفاتحة")   # اسم افتراضي: الفاتحة
+print(surah_info)
+```
+
+الحصول على آيات سورة معينة باستخدام رقم السورة
+
+```python
+surah_verses = surahs.get_surah_verses(id=1)    # سورة الفاتحة
+print(surah_verses)
+```
+
+الحصول على السور حسب مكان النزول (مكية أو مدنية)
+
+```python
+meccan_surahs = surahs.get_revelation_place(place="مكية")
+print(meccan_surahs)
+```
+
+كل دالة ترجع قاموسًا يحتوي على مفتاح status (منطقي) وإما data (عند النجاح) أو error (عند الفشل).
 
 المتطلبات
 
@@ -151,8 +194,9 @@ MIT - شركة إينوسوفت (InnoSoft Company)
 
 PyIslamSDK-Quran (English)
 
-A Python SDK for Quranic audio, recitations, and related Islamic data.
-This package provides an easy-to-use interface to access Quran audio files, reciter information, and server details — with zero external dependencies (uses only Python standard library).
+PyIslamSDK-Quran is a Python package that provides easy access to Quranic data (surahs, verses, revelation places) and audio resources (reciters and rewaya). It uses only the standard library and has no external dependencies.
+
+✨ New version v0.1.0 introduces full support for querying surahs and verses, along with major performance improvements in CLI commands.
 
 View on GitHub | View on PyPI
 
@@ -167,6 +211,8 @@ pip install PyIslamSDK-Quran
 ---
 
 Quick Start / Usage Examples
+
+Audio Module (audios)
 
 The audios module allows you to retrieve information about Quran reciters (rewaya) and audio servers.
 
@@ -190,7 +236,7 @@ print(rewaya_info)
 
 Access server information
 
-The Servers inner class provides methods to get audio server URLs.
+The inner class Servers provides methods to get audio server URLs.
 
 ```python
 # Create an instance of the Servers class (attached to the same audio configuration)
@@ -203,6 +249,42 @@ print(all_servers)
 # Get the specific server for the surah you initialized (surah 1)
 specific_server = servers.get_server()
 print(specific_server)
+```
+
+---
+
+Surahs Module (quran)
+
+Use the SurahsConfig class to access surah and verse information.
+
+Import and initialize
+
+```python
+from pyislamsdk_quran.quran import SurahsConfig
+
+# Create an instance (optional surah number can be passed)
+surahs = SurahsConfig()
+```
+
+Get all surahs
+
+```python
+all_surahs = surahs.get_all_surahs()
+print(all_surahs)
+```
+
+Get verses of a specific surah by its ID
+
+```python
+surah_verses = surahs.get_surah_verses(id=1)      # Surah Al-Fatiha
+print(surah_verses)
+```
+
+Get surahs by revelation place (Meccan or Medinan)
+
+```python
+meccan_surahs = surahs.get_revelation_place(place="مكية")   # or "Meccan" if English support is added
+print(meccan_surahs)
 ```
 
 Each method returns a dictionary with a status key (boolean) and either data (on success) or error (on failure).
