@@ -1,60 +1,60 @@
-# InnoCaptcha
+# PyIslamSDK-Quran 
 
 ---
 
 ## 🚀 Project Identity & Versioning
 | Badge Type | Markdown Code |
 | :--- | :--- |
-| **PyPI Version** | [![PyPI Version](https://img.shields.io/pypi/v/InnoCaptcha.svg)](https://pypi.org/project/InnoCaptcha/) |
-| **GitHub Release** | [![GitHub Release](https://img.shields.io/github/v/release/InnoSoft-Company/InnoCaptcha)](https://github.com/InnoSoft-Company/InnoCaptcha/releases) |
-| **GitHub Tag** | [![GitHub Tag](https://img.shields.io/github/v/tag/InnoSoft-Company/InnoCaptcha)](https://github.com/InnoSoft-Company/InnoCaptcha/tags) |
-| **License** | [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/InnoSoft-Company/InnoCaptcha/blob/main/LICENSE) |
-| **PyPI Status** | [![PyPI Status](https://img.shields.io/pypi/status/InnoCaptcha.svg)](https://pypi.org/project/InnoCaptcha/)
+| **PyPI Version** | [![PyPI Version](https://img.shields.io/pypi/v/PyIslamSDK-Quran.svg)](https://pypi.org/project/PyIslamSDK-Quran/) |
+| **GitHub Release** | [![GitHub Release](https://img.shields.io/github/v/release/InnoSoft-Company/PyIslamSDK/tree/quran)](https://github.com/InnoSoft-Company/PyIslamSDK/tree/quran/releases) |
+| **GitHub Tag** | [![GitHub Tag](https://img.shields.io/github/v/tag/InnoSoft-Company/PyIslamSDK/tree/quran)](https://github.com/InnoSoft-Company/PyIslamSDK/tree/quran/tags) |
+| **License** | [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/InnoSoft-Company/PyIslamSDK/tree/quran/blob/main/LICENSE) |
+| **PyPI Status** | [![PyPI Status](https://img.shields.io/pypi/status/PyIslamSDK-Quran.svg)](https://pypi.org/project/PyIslamSDK-Quran/)
 ---
 
 ## 📊 Stats & Downloads
 | Badge Type | Markdown Code |
 | :--- | :--- |
-| **Total Downloads (Pepy)** | [![Total Downloads](https://static.pepy.tech/personalized-badge/InnoCaptcha?period=total&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads)](https://pepy.tech/projects/InnoCaptcha) |
-| **Monthly Downloads (Pepy)** | [![Monthly Downloads](https://static.pepy.tech/personalized-badge/InnoCaptcha?period=monthly&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads)](https://pepy.tech/project/InnoCaptcha) |
-| **Weekly Downloads (Pepy)** | [![Weekly Downloads](https://static.pepy.tech/personalized-badge/InnoCaptcha?period=weekly&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads)](https://pepy.tech/project/InnoCaptcha) |
-| **PyPI Downloads (Daily)** | [![PyPI Downloads](https://img.shields.io/pypi/dd/InnoCaptcha)](https://pypi.org/project/InnoCaptcha/) |
-| **PyPI Downloads (Weekly)** | [![PyPI Downloads](https://img.shields.io/pypi/dw/InnoCaptcha)](https://pypi.org/project/InnoCaptcha/) |
-| **PyPI Downloads (Monthly)** | [![PyPI Downloads](https://img.shields.io/pypi/dm/InnoCaptcha)](https://pypi.org/project/InnoCaptcha/) |
+| **Total Downloads (Pepy)** | [![Total Downloads](https://static.pepy.tech/personalized-badge/PyIslamSDK-Quran?period=total&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads)](https://pepy.tech/projects/PyIslamSDK-Quran) |
+| **Monthly Downloads (Pepy)** | [![Monthly Downloads](https://static.pepy.tech/personalized-badge/PyIslamSDK-Quran?period=monthly&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads)](https://pepy.tech/project/PyIslamSDK-Quran) |
+| **Weekly Downloads (Pepy)** | [![Weekly Downloads](https://static.pepy.tech/personalized-badge/PyIslamSDK-Quran?period=weekly&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads)](https://pepy.tech/project/PyIslamSDK-Quran) |
+| **PyPI Downloads (Daily)** | [![PyPI Downloads](https://img.shields.io/pypi/dd/PyIslamSDK-Quran)](https://pypi.org/project/PyIslamSDK-Quran/) |
+| **PyPI Downloads (Weekly)** | [![PyPI Downloads](https://img.shields.io/pypi/dw/PyIslamSDK-Quran)](https://pypi.org/project/PyIslamSDK-Quran/) |
+| **PyPI Downloads (Monthly)** | [![PyPI Downloads](https://img.shields.io/pypi/dm/PyIslamSDK-Quran)](https://pypi.org/project/PyIslamSDK-Quran/) |
 
 ---
 
 ## 🛠️ Activity & Development
 | Badge Type | Markdown Code |
 | :--- | :--- |
-| **Last Commit** | [![GitHub last commit](https://img.shields.io/github/last-commit/InnoSoft-Company/InnoCaptcha)](https://github.com/InnoSoft-Company/InnoCaptcha/commits/main) |
-| **Commit Activity (Yearly)** | [![GitHub commit activity](https://img.shields.io/github/commit-activity/y/InnoSoft-Company/InnoCaptcha)](https://github.com/InnoSoft-Company/InnoCaptcha/graphs/commit-activity) |
-| **Contributors** | [![GitHub contributors](https://img.shields.io/github/contributors/InnoSoft-Company/InnoCaptcha)](https://github.com/InnoSoft-Company/InnoCaptcha/graphs/contributors) |
-| **Repo Size** | [![GitHub repo size](https://img.shields.io/github/repo-size/InnoSoft-Company/InnoCaptcha)](https://github.com/InnoSoft-Company/InnoCaptcha) |
-| **Code Size** | [![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/InnoSoft-Company/InnoCaptcha)](https://github.com/InnoSoft-Company/InnoCaptcha) |
-| **Top Language** | [![GitHub top language](https://img.shields.io/github/languages/top/InnoSoft-Company/InnoCaptcha)](https://github.com/InnoSoft-Company/InnoCaptcha) |
-| **Language Count** | [![GitHub language count](https://img.shields.io/github/languages/count/InnoSoft-Company/InnoCaptcha)](https://github.com/InnoSoft-Company/InnoCaptcha) |
+| **Last Commit** | [![GitHub last commit](https://img.shields.io/github/last-commit/InnoSoft-Company/PyIslamSDK/tree/quran)](https://github.com/InnoSoft-Company/PyIslamSDK/commits/quran) |
+| **Commit Activity (Yearly)** | [![GitHub commit activity](https://img.shields.io/github/commit-activity/y/InnoSoft-Company/PyIslamSDK/tree/quran)](https://github.com/InnoSoft-Company/PyIslamSDK/tree/quran/graphs/commit-activity) |
+| **Contributors** | [![GitHub contributors](https://img.shields.io/github/contributors/InnoSoft-Company/PyIslamSDK/tree/quran)](https://github.com/InnoSoft-Company/PyIslamSDK/tree/quran/graphs/contributors) |
+| **Repo Size** | [![GitHub repo size](https://img.shields.io/github/repo-size/InnoSoft-Company/PyIslamSDK/tree/quran)](https://github.com/InnoSoft-Company/PyIslamSDK/tree/quran) |
+| **Code Size** | [![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/InnoSoft-Company/PyIslamSDK/tree/quran)](https://github.com/InnoSoft-Company/PyIslamSDK/tree/quran) |
+| **Top Language** | [![GitHub top language](https://img.shields.io/github/languages/top/InnoSoft-Company/PyIslamSDK/tree/quran)](https://github.com/InnoSoft-Company/PyIslamSDK/tree/quran) |
+| **Language Count** | [![GitHub language count](https://img.shields.io/github/languages/count/InnoSoft-Company/PyIslamSDK/tree/quran)](https://github.com/InnoSoft-Company/PyIslamSDK/tree/quran) |
 
 ---
 
 ## ✨ Quality & Testing
 | Badge Type | Markdown Code |
 | :--- | :--- |
-| **Build Status** | [![Build Status](https://github.com/InnoSoft-Company/InnoCaptcha/actions/workflows/python-package.yml/badge.svg)](https://github.com/InnoSoft-Company/InnoCaptcha/actions) |
-| **Coverage** | [![Coverage](https://img.shields.io/codecov/c/github/InnoSoft-Company/InnoCaptcha)](https://codecov.io/gh/InnoSoft-Company/InnoCaptcha) |
-| **Code Quality** | [![Code Quality](https://img.shields.io/lgtm/grade/python/g/InnoSoft-Company/InnoCaptcha)](https://lgtm.com/projects/g/InnoSoft-Company/InnoCaptcha) |
-| **Typing** | [![Typing](https://img.shields.io/badge/typing-strict-brightgreen)](https://github.com/InnoSoft-Company/InnoCaptcha) |
-| **PyPI Types** | [![PyPI - Types](https://img.shields.io/pypi/types/InnoCaptcha)](https://pypi.org/project/InnoCaptcha/) |
+| **Build Status** | [![Build Status](https://github.com/InnoSoft-Company/PyIslamSDK/tree/quran/actions/workflows/python-package.yml/badge.svg)](https://github.com/InnoSoft-Company/PyIslamSDK/tree/quran/actions) |
+| **Coverage** | [![Coverage](https://img.shields.io/codecov/c/github/InnoSoft-Company/PyIslamSDK/tree/quran)](https://codecov.io/gh/InnoSoft-Company/PyIslamSDK/tree/quran) |
+| **Code Quality** | [![Code Quality](https://img.shields.io/lgtm/grade/python/g/InnoSoft-Company/PyIslamSDK/tree/quran)](https://lgtm.com/projects/g/InnoSoft-Company/PyIslamSDK/tree/quran) |
+| **Typing** | [![Typing](https://img.shields.io/badge/typing-strict-brightgreen)](https://github.com/InnoSoft-Company/PyIslamSDK/tree/quran) |
+| **PyPI Types** | [![PyPI - Types](https://img.shields.io/pypi/types/PyIslamSDK-Quran)](https://pypi.org/project/PyIslamSDK-Quran/) |
 
 ---
 
 ## 🐍 Environment & Compatibility
 | Badge Type | Markdown Code |
 | :--- | :--- |
-| **Python Versions** | [![Python Versions](https://img.shields.io/pypi/pyversions/InnoCaptcha.svg)](https://pypi.org/project/InnoCaptcha/) |
-| **PyPI Implementation** | [![PyPI Implementation](https://img.shields.io/pypi/implementation/InnoCaptcha)](https://pypi.org/project/InnoCaptcha/) |
-| **PyPI Wheel** | [![PyPI Wheel](https://img.shields.io/pypi/wheel/InnoCaptcha)](https://pypi.org/project/InnoCaptcha/) |
-| **PyPI Format** | [![PyPI Format](https://img.shields.io/pypi/format/InnoCaptcha)](https://pypi.org/project/InnoCaptcha/) |
+| **Python Versions** | [![Python Versions](https://img.shields.io/pypi/pyversions/PyIslamSDK-Quran.svg)](https://pypi.org/project/PyIslamSDK-Quran/) |
+| **PyPI Implementation** | [![PyPI Implementation](https://img.shields.io/pypi/implementation/PyIslamSDK-Quran)](https://pypi.org/project/PyIslamSDK-Quran/) |
+| **PyPI Wheel** | [![PyPI Wheel](https://img.shields.io/pypi/wheel/PyIslamSDK-Quran)](https://pypi.org/project/PyIslamSDK-Quran/) |
+| **PyPI Format** | [![PyPI Format](https://img.shields.io/pypi/format/PyIslamSDK-Quran)](https://pypi.org/project/PyIslamSDK-Quran/) |
 
 ---
 

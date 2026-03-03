@@ -18,21 +18,4 @@ class DBConnect:
     self.conn.commit()
     return self.cur
 
-  def close(self):
-    self.conn.close()
-
-# استخدام الكلاس
-db = SimpleDB("example.db")  # حط اسم ال db هنا
-
-# تجيب كل الداتا من جدول
-all_data = db.fetch("users")
-print(all_data)
-
-# تجيب داتا بشرط
-some_data = db.fetch("users", columns="id, name", where="age > 18")
-print(some_data)
-
-# تنفيذ أي query
-db.execute("UPDATE users SET active = 1 WHERE id = ?", (5,))
-
-db.close()
+  def close(self): self.conn.close()
