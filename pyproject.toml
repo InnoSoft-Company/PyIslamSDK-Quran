@@ -38,9 +38,9 @@ classifiers = [
 dependencies = []
 
 [project.urls]
-"Source Code" = "https://github.com/InnoSoft-Company/PyIslamSDK/tree/quran"
-"Bug Tracker" = "https://github.com/InnoSoft-Company/PyIslamSDK/tree/quran/issues"
-"Documentation" = "https://github.com/InnoSoft-Company/PyIslamSDK/tree/quran#readme"
+"Source Code" = "https://github.com/InnoSoft-Company/PyIslamSDK-Quran"
+"Bug Tracker" = "https://github.com/InnoSoft-Company/PyIslamSDK-Quran/issues"
+"Documentation" = "https://github.com/InnoSoft-Company/PyIslamSDK-Quran#readme"
 
 [tool.setuptools]
 packages = { find = {} }

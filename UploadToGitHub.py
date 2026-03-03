@@ -3,8 +3,8 @@ import os, pytz
 
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
-project = "PyIslamSDK"
-branch = "quran"
+project = "PyIslamSDK-Quran"
+branch = "main"
 
 try:
   if input("Did you have a git repo installed? (y/n): ").lower()[0] == "n":
@@ -21,4 +21,4 @@ git branch -M {branch} && \
 git push -u origin {branch} --force
 ''')
 
-#git clone --branch quran https://github.com/InnoSoft-Company/PyIslamSDK
+#git clone https://github.com/InnoSoft-Company/PyIslamSDK-Quran.git

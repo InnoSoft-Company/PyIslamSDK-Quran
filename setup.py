@@ -14,12 +14,12 @@ setup(
     url="https://github.com/InnoSoft-Company/IslamSDK-Quran",
     license="MIT",
     project_urls={
-        "Source Code": "https://github.com/InnoSoft-Company/IslamSDK-Quran",
-        "Bug Tracker": "https://github.com/InnoSoft-Company/IslamSDK-Quran/issues",
-        "Documentation": "https://github.com/InnoSoft-Company/IslamSDK-Quran#readme",
+        "Source Code": "https://github.com/InnoSoft-Company/PyIslamSDK-Quran",
+        "Bug Tracker": "https://github.com/InnoSoft-Company/PyIslamSDK-Quran/issues",
+        "Documentation": "https://github.com/InnoSoft-Company/PyIslamSDK-Quran#readme",
     },
     packages=find_packages(),
-    package_data={"islamsdk_quran": ["dbs/*.db", "data/*.json"]},
+    package_data={"pyislamsdk_quran": ["dbs/*.db", "data/*.json"]},
     python_requires=">=3.9",
     install_requires=[],
     classifiers=[

@@ -9,8 +9,7 @@ class SurahsConfig:
   def get_surah(name="الفاتحة"):
     try: return {"status": True, "data": self.db.fetch(self.table, where=f"name_ar LIKE {name}")}
     except Exception as e: return {"status": False, "error": e}
-  
-  
+
 class AyatConfig:
   def __init__(self, surah_number=1, reciter_ar=None):
     self.surah_number = surah_number

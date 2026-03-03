@@ -1,170 +1,212 @@
-# PyIslamSDK-Quran 
+# PyIslamSDK-Quran
 
 ---
 
-## 🚀 Project Identity & Versioning
-| Badge Type | Markdown Code |
+## 🚀 هوية المشروع والإصدارات
+| نوع الشارة | كود Markdown |
 | :--- | :--- |
-| **PyPI Version** | [![PyPI Version](https://img.shields.io/pypi/v/PyIslamSDK-Quran.svg)](https://pypi.org/project/PyIslamSDK-Quran/) |
-| **GitHub Release** | [![GitHub Release](https://img.shields.io/github/v/release/InnoSoft-Company/PyIslamSDK/tree/quran)](https://github.com/InnoSoft-Company/PyIslamSDK/tree/quran/releases) |
-| **GitHub Tag** | [![GitHub Tag](https://img.shields.io/github/v/tag/InnoSoft-Company/PyIslamSDK/tree/quran)](https://github.com/InnoSoft-Company/PyIslamSDK/tree/quran/tags) |
-| **License** | [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/InnoSoft-Company/PyIslamSDK/tree/quran/blob/main/LICENSE) |
-| **PyPI Status** | [![PyPI Status](https://img.shields.io/pypi/status/PyIslamSDK-Quran.svg)](https://pypi.org/project/PyIslamSDK-Quran/)
+| **إصدار PyPI** | [![PyPI Version](https://img.shields.io/pypi/v/PyIslamSDK-Quran.svg)](https://pypi.org/project/PyIslamSDK-Quran/) |
+| **إصدار GitHub** | [![GitHub Release](https://img.shields.io/github/v/release/InnoSoft-Company/PyIslamSDK-Quran)](https://github.com/InnoSoft-Company/PyIslamSDK-Quran/releases) |
+| **وسم GitHub** | [![GitHub Tag](https://img.shields.io/github/v/tag/InnoSoft-Company/PyIslamSDK-Quran)](https://github.com/InnoSoft-Company/PyIslamSDK-Quran/tags) |
+| **الرخصة** | [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/InnoSoft-Company/PyIslamSDK-Quran/blob/main/LICENSE) |
+| **حالة PyPI** | [![PyPI Status](https://img.shields.io/pypi/status/PyIslamSDK-Quran.svg)](https://pypi.org/project/PyIslamSDK-Quran/)
 ---
 
-## 📊 Stats & Downloads
-| Badge Type | Markdown Code |
+## 📊 الإحصائيات والتنزيلات
+| نوع الشارة | كود Markdown |
 | :--- | :--- |
-| **Total Downloads (Pepy)** | [![Total Downloads](https://static.pepy.tech/personalized-badge/PyIslamSDK-Quran?period=total&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads)](https://pepy.tech/projects/PyIslamSDK-Quran) |
-| **Monthly Downloads (Pepy)** | [![Monthly Downloads](https://static.pepy.tech/personalized-badge/PyIslamSDK-Quran?period=monthly&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads)](https://pepy.tech/project/PyIslamSDK-Quran) |
-| **Weekly Downloads (Pepy)** | [![Weekly Downloads](https://static.pepy.tech/personalized-badge/PyIslamSDK-Quran?period=weekly&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads)](https://pepy.tech/project/PyIslamSDK-Quran) |
-| **PyPI Downloads (Daily)** | [![PyPI Downloads](https://img.shields.io/pypi/dd/PyIslamSDK-Quran)](https://pypi.org/project/PyIslamSDK-Quran/) |
-| **PyPI Downloads (Weekly)** | [![PyPI Downloads](https://img.shields.io/pypi/dw/PyIslamSDK-Quran)](https://pypi.org/project/PyIslamSDK-Quran/) |
-| **PyPI Downloads (Monthly)** | [![PyPI Downloads](https://img.shields.io/pypi/dm/PyIslamSDK-Quran)](https://pypi.org/project/PyIslamSDK-Quran/) |
+| **إجمالي التنزيلات (Pepy)** | [![Total Downloads](https://static.pepy.tech/personalized-badge/PyIslamSDK-Quran?period=total&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads)](https://pepy.tech/projects/PyIslamSDK-Quran) |
+| **التنزيلات الشهرية (Pepy)** | [![Monthly Downloads](https://static.pepy.tech/personalized-badge/PyIslamSDK-Quran?period=monthly&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads)](https://pepy.tech/project/PyIslamSDK-Quran) |
+| **التنزيلات الأسبوعية (Pepy)** | [![Weekly Downloads](https://static.pepy.tech/personalized-badge/PyIslamSDK-Quran?period=weekly&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads)](https://pepy.tech/project/PyIslamSDK-Quran) |
+| **تنزيلات PyPI (يومي)** | [![PyPI Downloads](https://img.shields.io/pypi/dd/PyIslamSDK-Quran)](https://pypi.org/project/PyIslamSDK-Quran/) |
+| **تنزيلات PyPI (أسبوعي)** | [![PyPI Downloads](https://img.shields.io/pypi/dw/PyIslamSDK-Quran)](https://pypi.org/project/PyIslamSDK-Quran/) |
+| **تنزيلات PyPI (شهري)** | [![PyPI Downloads](https://img.shields.io/pypi/dm/PyIslamSDK-Quran)](https://pypi.org/project/PyIslamSDK-Quran/) |
 
 ---
 
-## 🛠️ Activity & Development
-| Badge Type | Markdown Code |
+## 🛠️ النشاط والتطوير
+| نوع الشارة | كود Markdown |
 | :--- | :--- |
-| **Last Commit** | [![GitHub last commit](https://img.shields.io/github/last-commit/InnoSoft-Company/PyIslamSDK/tree/quran)](https://github.com/InnoSoft-Company/PyIslamSDK/commits/quran) |
-| **Commit Activity (Yearly)** | [![GitHub commit activity](https://img.shields.io/github/commit-activity/y/InnoSoft-Company/PyIslamSDK/tree/quran)](https://github.com/InnoSoft-Company/PyIslamSDK/tree/quran/graphs/commit-activity) |
-| **Contributors** | [![GitHub contributors](https://img.shields.io/github/contributors/InnoSoft-Company/PyIslamSDK/tree/quran)](https://github.com/InnoSoft-Company/PyIslamSDK/tree/quran/graphs/contributors) |
-| **Repo Size** | [![GitHub repo size](https://img.shields.io/github/repo-size/InnoSoft-Company/PyIslamSDK/tree/quran)](https://github.com/InnoSoft-Company/PyIslamSDK/tree/quran) |
-| **Code Size** | [![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/InnoSoft-Company/PyIslamSDK/tree/quran)](https://github.com/InnoSoft-Company/PyIslamSDK/tree/quran) |
-| **Top Language** | [![GitHub top language](https://img.shields.io/github/languages/top/InnoSoft-Company/PyIslamSDK/tree/quran)](https://github.com/InnoSoft-Company/PyIslamSDK/tree/quran) |
-| **Language Count** | [![GitHub language count](https://img.shields.io/github/languages/count/InnoSoft-Company/PyIslamSDK/tree/quran)](https://github.com/InnoSoft-Company/PyIslamSDK/tree/quran) |
+| **آخر تحديث** | [![GitHub last commit](https://img.shields.io/github/last-commit/InnoSoft-Company/PyIslamSDK-Quran)](https://github.com/InnoSoft-Company/PyIslamSDK/commits/quran) |
+| **نشاط الالتزامات (سنوي)** | [![GitHub commit activity](https://img.shields.io/github/commit-activity/y/InnoSoft-Company/PyIslamSDK-Quran)](https://github.com/InnoSoft-Company/PyIslamSDK-Quran/graphs/commit-activity) |
+| **المساهمون** | [![GitHub contributors](https://img.shields.io/github/contributors/InnoSoft-Company/PyIslamSDK-Quran)](https://github.com/InnoSoft-Company/PyIslamSDK-Quran/graphs/contributors) |
+| **حجم المستودع** | [![GitHub repo size](https://img.shields.io/github/repo-size/InnoSoft-Company/PyIslamSDK-Quran)](https://github.com/InnoSoft-Company/PyIslamSDK-Quran) |
+| **حجم الكود** | [![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/InnoSoft-Company/PyIslamSDK-Quran)](https://github.com/InnoSoft-Company/PyIslamSDK-Quran) |
+| **اللغة الأساسية** | [![GitHub top language](https://img.shields.io/github/languages/top/InnoSoft-Company/PyIslamSDK-Quran)](https://github.com/InnoSoft-Company/PyIslamSDK-Quran) |
+| **عدد اللغات** | [![GitHub language count](https://img.shields.io/github/languages/count/InnoSoft-Company/PyIslamSDK-Quran)](https://github.com/InnoSoft-Company/PyIslamSDK-Quran) |
 
 ---
 
-## ✨ Quality & Testing
-| Badge Type | Markdown Code |
+## ✨ الجودة والاختبارات
+| نوع الشارة | كود Markdown |
 | :--- | :--- |
-| **Build Status** | [![Build Status](https://github.com/InnoSoft-Company/PyIslamSDK/tree/quran/actions/workflows/python-package.yml/badge.svg)](https://github.com/InnoSoft-Company/PyIslamSDK/tree/quran/actions) |
-| **Coverage** | [![Coverage](https://img.shields.io/codecov/c/github/InnoSoft-Company/PyIslamSDK/tree/quran)](https://codecov.io/gh/InnoSoft-Company/PyIslamSDK/tree/quran) |
-| **Code Quality** | [![Code Quality](https://img.shields.io/lgtm/grade/python/g/InnoSoft-Company/PyIslamSDK/tree/quran)](https://lgtm.com/projects/g/InnoSoft-Company/PyIslamSDK/tree/quran) |
-| **Typing** | [![Typing](https://img.shields.io/badge/typing-strict-brightgreen)](https://github.com/InnoSoft-Company/PyIslamSDK/tree/quran) |
-| **PyPI Types** | [![PyPI - Types](https://img.shields.io/pypi/types/PyIslamSDK-Quran)](https://pypi.org/project/PyIslamSDK-Quran/) |
+| **حالة البناء** | [![Build Status](https://github.com/InnoSoft-Company/PyIslamSDK-Quran/actions/workflows/python-package.yml/badge.svg)](https://github.com/InnoSoft-Company/PyIslamSDK-Quran/actions) |
+| **تغطية الاختبارات** | [![Coverage](https://img.shields.io/codecov/c/github/InnoSoft-Company/PyIslamSDK-Quran)](https://codecov.io/gh/InnoSoft-Company/PyIslamSDK-Quran) |
+| **جودة الكود** | [![Code Quality](https://img.shields.io/lgtm/grade/python/g/InnoSoft-Company/PyIslamSDK-Quran)](https://lgtm.com/projects/g/InnoSoft-Company/PyIslamSDK-Quran) |
+| **الكتابة (Typing)** | [![Typing](https://img.shields.io/badge/typing-strict-brightgreen)](https://github.com/InnoSoft-Company/PyIslamSDK-Quran) |
+| **أنواع PyPI** | [![PyPI - Types](https://img.shields.io/pypi/types/PyIslamSDK-Quran)](https://pypi.org/project/PyIslamSDK-Quran/) |
 
 ---
 
-## 🐍 Environment & Compatibility
-| Badge Type | Markdown Code |
+## 🐍 البيئة والتوافق
+| نوع الشارة | كود Markdown |
 | :--- | :--- |
-| **Python Versions** | [![Python Versions](https://img.shields.io/pypi/pyversions/PyIslamSDK-Quran.svg)](https://pypi.org/project/PyIslamSDK-Quran/) |
-| **PyPI Implementation** | [![PyPI Implementation](https://img.shields.io/pypi/implementation/PyIslamSDK-Quran)](https://pypi.org/project/PyIslamSDK-Quran/) |
-| **PyPI Wheel** | [![PyPI Wheel](https://img.shields.io/pypi/wheel/PyIslamSDK-Quran)](https://pypi.org/project/PyIslamSDK-Quran/) |
-| **PyPI Format** | [![PyPI Format](https://img.shields.io/pypi/format/PyIslamSDK-Quran)](https://pypi.org/project/PyIslamSDK-Quran/) |
+| **إصدارات Python** | [![Python Versions](https://img.shields.io/pypi/pyversions/PyIslamSDK-Quran.svg)](https://pypi.org/project/PyIslamSDK-Quran/) |
+| **تطبيق PyPI** | [![PyPI Implementation](https://img.shields.io/pypi/implementation/PyIslamSDK-Quran)](https://pypi.org/project/PyIslamSDK-Quran/) |
+| **عجلة PyPI** | [![PyPI Wheel](https://img.shields.io/pypi/wheel/PyIslamSDK-Quran)](https://pypi.org/project/PyIslamSDK-Quran/) |
+| **تنسيق PyPI** | [![PyPI Format](https://img.shields.io/pypi/format/PyIslamSDK-Quran)](https://pypi.org/project/PyIslamSDK-Quran/) |
 
 ---
 
-## 🤝 Community & Social
-| Badge Type | Markdown Code |
+## 🤝 المجتمع والتواصل الاجتماعي
+| نوع الشارة | كود Markdown |
 | :--- | :--- |
-| **GitHub Stars** | [![GitHub stars](https://img.shields.io/github/stars/InnoSoft-Company/InnoCaptcha?style=social)](https://github.com/InnoSoft-Company/InnoCaptcha) |
-| **GitHub Forks** | [![GitHub forks](https://img.shields.io/github/forks/InnoSoft-Company/InnoCaptcha?style=social)](https://github.com/InnoSoft-Company/InnoCaptcha) |
-| **GitHub Watchers** | [![GitHub watchers](https://img.shields.io/github/watchers/InnoSoft-Company/InnoCaptcha?style=social)](https://github.com/InnoSoft-Company/InnoCaptcha) |
-| **GitHub Followers** | [![GitHub followers](https://img.shields.io/github/followers/InnoSoft-Company?style=social)](https://github.com/InnoSoft-Company) |
-| **GitHub Discussions** | [![GitHub Discussions](https://img.shields.io/github/discussions/InnoSoft-Company/InnoCaptcha)](https://github.com/InnoSoft-Company/InnoCaptcha/discussions) |
+| **نجوم GitHub** | [![GitHub stars](https://img.shields.io/github/stars/InnoSoft-Company/PyIslamSDK-Quran?style=social)](https://github.com/InnoSoft-Company/PyIslamSDK-Quran) |
+| **تفريعات GitHub** | [![GitHub forks](https://img.shields.io/github/forks/InnoSoft-Company/PyIslamSDK-Quran?style=social)](https://github.com/InnoSoft-Company/PyIslamSDK-Quran) |
+| **متابعو GitHub** | [![GitHub watchers](https://img.shields.io/github/watchers/InnoSoft-Company/PyIslamSDK-Quran?style=social)](https://github.com/InnoSoft-Company/PyIslamSDK-Quran) |
+| **متابعو المنظمة** | [![GitHub followers](https://img.shields.io/github/followers/InnoSoft-Company?style=social)](https://github.com/InnoSoft-Company) |
+| **مناقشات GitHub** | [![GitHub Discussions](https://img.shields.io/github/discussions/InnoSoft-Company/PyIslamSDK-Quran)](https://github.com/InnoSoft-Company/PyIslamSDK-Quran/discussions) |
 
 ---
 
-## 🛠️ Support & Maintenance
-| Badge Type | Markdown Code |
+## 🛠️ الدعم والصيانة
+| نوع الشارة | كود Markdown |
 | :--- | :--- |
-| **Open Issues** | [![GitHub issues](https://img.shields.io/github/issues/InnoSoft-Company/InnoCaptcha)](https://github.com/InnoSoft-Company/InnoCaptcha/issues) |
-| **Closed Issues** | [![GitHub issues-closed](https://img.shields.io/github/issues-closed/InnoSoft-Company/InnoCaptcha)](https://github.com/InnoSoft-Company/InnoCaptcha/issues?q=is%3Aissue+is%3Aclosed) |
-| **Open PRs** | [![GitHub pull requests](https://img.shields.io/github/issues-pr/InnoSoft-Company/InnoCaptcha)](https://github.com/InnoSoft-Company/InnoCaptcha/pulls) |
-| **Closed PRs** | [![GitHub pull requests-closed](https://img.shields.io/github/issues-pr-closed/InnoSoft-Company/InnoCaptcha)](https://github.com/InnoSoft-Company/InnoCaptcha/pulls?q=is%3Apr+is%3Aclosed) |
-| **Milestones** | [![GitHub milestones](https://img.shields.io/github/milestones/open/InnoSoft-Company/InnoCaptcha)](https://github.com/InnoSoft-Company/InnoCaptcha/milestones) |
-
-Structured Egyptian geographical and timezone data for Python.
-
-Provides a complete, offline dataset of Egyptian governorates, cities, landline and mobile area codes, and timezone utilities — with zero dependencies (uses Python standard library only).
-
-[View on GitHub](https://github.com/InnoSoft-Company/InnoCaptcha) | [View on PyPI](https://pypi.org/project/InnoCaptcha/)
+| **المشكلات المفتوحة** | [![GitHub issues](https://img.shields.io/github/issues/InnoSoft-Company/PyIslamSDK-Quran)](https://github.com/InnoSoft-Company/PyIslamSDK-Quran/issues) |
+| **المشكلات المغلقة** | [![GitHub issues-closed](https://img.shields.io/github/issues-closed/InnoSoft-Company/PyIslamSDK-Quran)](https://github.com/InnoSoft-Company/PyIslamSDK-Quran/issues?q=is%3Aissue+is%3Aclosed) |
+| **طلبات السحب المفتوحة** | [![GitHub pull requests](https://img.shields.io/github/issues-pr/InnoSoft-Company/PyIslamSDK-Quran)](https://github.com/InnoSoft-Company/PyIslamSDK-Quran/pulls) |
+| **طلبات السحب المغلقة** | [![GitHub pull requests-closed](https://img.shields.io/github/issues-pr-closed/InnoSoft-Company/PyIslamSDK-Quran)](https://github.com/InnoSoft-Company/PyIslamSDK-Quran/pulls?q=is%3Apr+is%3Aclosed) |
+| **المعالم (Milestones)** | [![GitHub milestones](https://img.shields.io/github/milestones/open/InnoSoft-Company/PyIslamSDK-Quran)](https://github.com/InnoSoft-Company/PyIslamSDK-Quran/milestones) |
 
 ---
 
-## Installation
+**PyIslamSDK-Quran** هي حزمة Python لتوفير وصول سهل إلى بيانات القرآن الصوتية والقراءات والمعلومات المرتبطة. تعتمد على المكتبة القياسية فقط ولا تحتاج إلى تبعيات خارجية.
+
+[عرض على GitHub](https://github.com/InnoSoft-Company/PyIslamSDK-Quran) | [عرض على PyPI](https://pypi.org/project/PyIslamSDK-Quran/)
+
+---
+
+## التثبيت
 
 ```bash
-pip install InnoCaptcha
-```
-
-Quick Start
-
-Image CAPTCHA Generation
-
-Generate custom image-based CAPTCHA with configurable text, colors, size, and fonts.
-
-```python
-from InnoCaptcha.image import generate_captcha
-
-# Generate a simple CAPTCHA and save it to the current directory
-result = generate_captcha("A1b2C3")
-print(result)  # {'file_path': '/current/path/captcha.png', 'chars': 'A1b2C3'}
-
-# Save to a specific folder with custom colors and size
-result = generate_captcha(
-    chars="7Xk9P",
-    path="/tmp/captchas",
-    format="png",
-    bg_color=(255, 255, 255),      # white background
-    fg_color=(50, 150, 200),        # blue text
-    width=240,
-    height=80
-)
+pip install PyIslamSDK-Quran
 ```
 
 ---
 
-generate_captcha()
+بداية سريعة / أمثلة الاستخدام
 
-Parameter Type Default Description
-chars str required The text to render in the CAPTCHA image.
-path str or None None Directory where the image will be saved. If None, saves to the current working directory.
-format str 'png' Image format (e.g., 'png', 'jpeg', 'gif').
-bg_color tuple of 3 int (RGB) or None random light color Background color. If None, a random light color is chosen.
-fg_color tuple of 3 or 4 int (RGB/RGBA) or None random dark color Foreground (text) color. If None, a random semi‑transparent dark color is generated.
-width int or None 160 Image width in pixels. If None, uses default (160).
-height int or None 60 Image height in pixels. If None, uses default (60).
-fonts list of font paths or None built‑in fonts List of TrueType font file paths to use for text rendering.
-font_sizes tuple of int or None (42, 50, 56) Font sizes to randomly pick from.
+تتيح لك الوحدة audios استرجاع معلومات عن القراء (الروايات) وخوادم الصوت.
 
-Returns a dictionary:
+الاستيراد والتهيئة
 
 ```python
-{
-    'file_path': str,   # full path to the saved image file
-    'chars': str        # the original text that was rendered
-}
+from pyislamsdk_quran.audios import AudioConfig
+
+# إنشاء كائن لسورة الفاتحة (رقم ١) مع قارئ محدد باللغة العربية
+audio = AudioConfig(surah_number=1, reciter_ar="عبدالباسط عبدالصمد")
+```
+
+الحصول على معلومات الرواية
+
+```python
+# استرجاع تفاصيل الرواية (يمكن تحديد اللغة: 'ar' أو 'en')
+rewaya_info = audio.get_rewaya(lang="ar")
+print(rewaya_info)
+# الناتج: {"status": True, "data": [...]} أو {"status": False, "error": ...}
+```
+
+الوصول إلى معلومات الخادم (السيرفر)
+
+الصنف الداخلي Servers يوفر دوالاً للحصول على روابط الخوادم الصوتية.
+
+```python
+# إنشاء كائن من الصنف Servers (مرتبط بنفس تهيئة الصوت)
+servers = audio.Servers()
+
+# الحصول على جميع الخوادم المتاحة (لكل السور/القراء)
+all_servers = servers.get_all_servers()
+print(all_servers)
+
+# الحصول على الخادم الخاص بالسورة التي تم تهيئتها (سورة ١)
+specific_server = servers.get_server()
+print(specific_server)
+```
+
+كل دالة ترجع قاموسًا (dictionary) يحتوي على مفتاح status (منطقي) وإما data (عند النجاح) أو error (عند الفشل).
+
+---
+
+المتطلبات
+
+· Python 3.9 أو أحدث (يستخدم مكتبة zoneinfo القياسية؛ بالنسبة لـ Python 3.8 قد تحتاج إلى حزمة backports.zoneinfo).
+
+---
+
+الترخيص
+
+MIT - شركة إينوسوفت (InnoSoft Company)
+
+---
+
+PyIslamSDK-Quran (English)
+
+A Python SDK for Quranic audio, recitations, and related Islamic data.
+This package provides an easy-to-use interface to access Quran audio files, reciter information, and server details — with zero external dependencies (uses only Python standard library).
+
+View on GitHub | View on PyPI
+
+---
+
+Installation
+
+```bash
+pip install PyIslamSDK-Quran
 ```
 
 ---
 
-Additional Functions
+Quick Start / Usage Examples
 
-· generate_captcha_image(chars, ...) – returns a PIL.Image object instead of saving it.
-· generate_captcha_bytes(chars, ...) – returns an in‑memory bytes buffer of the image (useful for serving directly over HTTP).
+The audios module allows you to retrieve information about Quran reciters (rewaya) and audio servers.
 
-Example using generate_captcha_bytes:
+Import and initialize
 
 ```python
-from InnoCaptcha.image import generate_captcha_bytes
-from flask import send_file
+from pyislamsdk_quran.audios import AudioConfig
 
-buffer = generate_captcha_bytes("XyZ12")
-return send_file(buffer, mimetype='image/png')
+# Create an instance for Surah Al-Fatiha (surah 1) with a specific reciter (Arabic name)
+audio = AudioConfig(surah_number=1, reciter_ar="عبدالباسط عبدالصمد")
 ```
 
----
+Get recitation (rewaya) information
 
-Notes
+```python
+# Retrieve rewaya details in Arabic (or specify 'en' for English)
+rewaya_info = audio.get_rewaya(lang="ar")
+print(rewaya_info)
+# Expected output: {"status": True, "data": [...]} or {"status": False, "error": ...}
+```
 
-· All CAPTCHA images include random distortions (curve, dots, character warping) and anti‑aliasing for better security.
-· The module uses secrets for cryptographically strong randomness.
-· For advanced customization, you can pass your own fonts (list of .ttf file paths) and fine‑tune rendering via the module‑level constants (CHARACTER_OFFSET_DX, WORD_SPACE_PROBABILITY, etc.).
+Access server information
+
+The Servers inner class provides methods to get audio server URLs.
+
+```python
+# Create an instance of the Servers class (attached to the same audio configuration)
+servers = audio.Servers()
+
+# Get all available servers (for all surahs/reciters)
+all_servers = servers.get_all_servers()
+print(all_servers)
+
+# Get the specific server for the surah you initialized (surah 1)
+specific_server = servers.get_server()
+print(specific_server)
+```
+
+Each method returns a dictionary with a status key (boolean) and either data (on success) or error (on failure).
+
 ---
 
 Requirements
@@ -176,5 +218,3 @@ Requirements
 License
 
 MIT - InnoSoft Company
-
-```
