@@ -1,0 +1,49 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "PyIslamSDK-Quran"
+version = "0.0.1"
+description = "IslamSDK Quran module with Quranic texts, utilities, and local database."
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+    { name = "InnoSoft Company", email = "midoghanam@hotmail.com" }
+]
+license = { file = "LICENSE" }
+keywords = [
+    "islam",
+    "quran",
+    "adhan",
+    "dua",
+    "sdk",
+    "religion",
+    "prayer",
+    "dhikr"
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Education",
+    "Topic :: Software Development :: Libraries",
+    "Typing :: Typed",
+]
+dependencies = []
+
+[project.urls]
+"Source Code" = "https://github.com/InnoSoft-Company/IslamSDK-Quran"
+"Bug Tracker" = "https://github.com/InnoSoft-Company/IslamSDK-Quran/issues"
+"Documentation" = "https://github.com/InnoSoft-Company/IslamSDK-Quran#readme"
+
+[tool.setuptools]
+packages = { find = {} }
+
+[tool.setuptools.package-data]
+islamsdk_quran = ["dbs/*.db", "data/*.json"]
