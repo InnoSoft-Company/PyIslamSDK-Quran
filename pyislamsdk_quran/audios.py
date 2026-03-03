@@ -8,5 +8,7 @@ class AudioConfig:
     self.db = config.DBConnect(os.path.join(os.path.abspath(os.path.dirname(__file__)), "/dbs/quran.db"))
     self.table = "audio"
   
-  def get_rewaya(self, lang=ar):
-    pass
+  def get_rewaya(self,  lang=ar):
+    data = self.db.fetch(self.table, columns=f"rewaya_{'ar' if lang == 'ar' else 'en'}", where=f"reciter_ar == {self.reciter_ar}")
+
+
