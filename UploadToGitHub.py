@@ -17,8 +17,8 @@ q = input("Adding a commit message? (Skip avilable): ")
 os.system(f'''
 git add . && \
 git commit -m "{datetime.now(pytz.timezone("Africa/Cairo")).strftime("%d-%m-%Y | %H:%M:%S")}{ f' | {q}' if q else '' }" && \
-git branch -M main && \
-git push https://github.com/InnoSoft-Company/{project}.git {branch} --force
+git branch -M {branch} && \
+git push -u origin {branch} --force
 ''')
 
 #git clone --branch quran https://github.com/InnoSoft-Company/PyIslamSDK
