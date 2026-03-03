@@ -2,29 +2,21 @@ from .dbs import config
 
 class SurahsConfig:
   def __init__(self, surah_number=1):
-    self.surah_number = surah_number
-    self.db = config.DBConnect(os.path.join(os.path.abspath(os.path.dirname(__file__)), "/dbs/quran.db"))
+    self.db = config.DBConnect(os.path.join(os.path.abspath(os.path.dirname(__file__)), "dbs/quran.db"))
     self.table = "surahs"
   
-  def get_surah(name="الفاتحة"):
+  def get_all_surahs(self):
+    try: return {"status": True, "data": self.db.fetch(self.table)}
+    except Exception as e: return {"status": False, "error": e}
+  
+  def get_surah(self, name="الفاتحة"):
     try: return {"status": True, "data": self.db.fetch(self.table, where=f"name_ar LIKE {name}")}
     except Exception as e: return {"status": False, "error": e}
-
-class AyatConfig:
-  def __init__(self, surah_number=1, reciter_ar=None):
-    self.surah_number = surah_number
-    self.reciter_ar = reciter_ar
-    self.db = config.DBConnect(os.path.join(os.path.abspath(os.path.dirname(__file__)), "/dbs/quran.db"))
-    self.table = "verses"
   
-  def get_rewaya(self, get_rewaya_lang="en", input_rewaya_lang="ar"):
-    try: return {"status": True, "data": self.db.fetch(self.table, columns=f"id,rewaya_{'ar' if get_rewaya_lang == 'ar' else 'en'}", where=f"reciter_{input_rewaya_lang} == {self.reciter_ar}")}
+  def get_surah_verses(self, id=1):
+    try: return {"status": True, "data": self.db.fetch(self.table, where=f"id = {int(id)}")}
     except Exception as e: return {"status": False, "error": e}
   
-  def get_server(self):
-    try: return {"status": True, "data": self.db.fetch(self.table, columns=f"id,server")}
-    except Exception as e: return {"status": False, "error": e}
-  
-  def get_server(self, id):
-    try: return {"status": True, "data": self.db.fetch(self.table, columns=f"id,server", where=f"id == {id}")}
+  def get_revelation_place(self, place="مكية"):
+    try: return {"status": True, "data": self.db.fetch(self.table, where=f"revelation_place_ar = '{place}'")}
     except Exception as e: return {"status": False, "error": e}
