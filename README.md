@@ -27,7 +27,7 @@
 ## 🛠️ النشاط والتطوير
 | نوع الشارة | كود Markdown |
 | :--- | :--- |
-| **آخر تحديث** | [![GitHub last commit](https://img.shields.io/github/last-commit/InnoSoft-Company/PyIslamSDK-Quran)](https://github.com/InnoSoft-Company/PyIslamSDK/commits/quran) |
+| **آخر تحديث** | [![GitHub last commit](https://img.shields.io/github/last-commit/InnoSoft-Company/PyIslamSDK-Quran)](https://github.com/InnoSoft-Company/PyIslamSDK-Quran/commits/quran) |
 | **نشاط الالتزامات (سنوي)** | [![GitHub commit activity](https://img.shields.io/github/commit-activity/y/InnoSoft-Company/PyIslamSDK-Quran)](https://github.com/InnoSoft-Company/PyIslamSDK-Quran/graphs/commit-activity) |
 | **المساهمون** | [![GitHub contributors](https://img.shields.io/github/contributors/InnoSoft-Company/PyIslamSDK-Quran)](https://github.com/InnoSoft-Company/PyIslamSDK-Quran/graphs/contributors) |
 | **حجم المستودع** | [![GitHub repo size](https://img.shields.io/github/repo-size/InnoSoft-Company/PyIslamSDK-Quran)](https://github.com/InnoSoft-Company/PyIslamSDK-Quran) |

@@ -46,7 +46,7 @@ dependencies = []
 packages = { find = {} }
 
 [tool.setuptools.package-data]
-islamsdk_quran = ["dbs/*.db", "data/*.json"]
+islamsdk_quran = ["dbs/*.db", "data/*.json", "*"]
 
 [project.scripts]
 pyislamsdk_quran = "pyislamsdk_quran.cli:main"
