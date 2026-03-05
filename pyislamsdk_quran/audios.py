@@ -10,15 +10,15 @@ class AudioConfig:
   
   def get_rewaya(self, lang="en"):
     try: return {"status": True, "data": self.db.fetch(self.table, where=f"reciter_{lang} = '{self.reciter_ar}'")}
-    except Exception as e: return {"status": False, "error": e}
+    except Exception as e: return {"status": False, "error": str(e)}
   
   class Servers:
     def __init__(self): self.config = self
-    
+
     def get_all_servers(self):
       try: return {"status": True, "data": self.config.db.fetch(self.config.table)}
-      except Exception as e: return {"status": False, "error": e}
+      except Exception as e: return {"status": False, "error": str(e)}
   
     def get_server(self):
       try: return {"status": True, "data": self.config.db.fetch(self.config.table, columns=f"id,server", where=f"id = {self.config.surah_number}")}
-      except Exception as e: return {"status": False, "error": e}
+      except Exception as e: return {"status": False, "error": str(e)}
