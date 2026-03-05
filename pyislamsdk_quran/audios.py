@@ -1,5 +1,6 @@
 import importlib.resources as pkg
 from .dbs import config
+from . import dbs
 
 class AudioConfig:
   def __init__(self, surah_number=1, reciter_ar=None):

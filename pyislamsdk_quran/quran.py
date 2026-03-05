@@ -1,5 +1,6 @@
 import importlib.resources as pkg
 from .dbs import config
+from . import dbs
 
 class SurahsConfig:
   def __init__(self):
