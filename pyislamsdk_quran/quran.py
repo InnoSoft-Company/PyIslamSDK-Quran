@@ -1,11 +1,11 @@
+import importlib.resources as pkg
 from .dbs import config
-import os
 
 class SurahsConfig:
   def __init__(self):
-    self.db = config.DBConnect(os.path.join(os.path.abspath(os.path.dirname(__file__)), "dbs/quran.db"))
+    self.db = config.DBConnect(str(pkg.files(dbs).joinpath("quran.db")))
     self.table = "surahs"
-  
+
   def get_all_surahs(self):
     try: return {"status": True, "data": self.db.fetch(self.table)}
     except Exception as e: return {"status": False, "error": str(e)}
